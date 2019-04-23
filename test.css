@@ -1,0 +1,429 @@
+html, body {
+		height:100%;
+}
+body{
+    font-family: 'san-serif',Helvetica;
+}
+p {
+    color:#64707b;
+    font-size:16px;
+    font-weight:200;
+}
+h2 {
+   color:#fff;
+}
+
+
+#home {
+	height:100%;
+}
+#home-cover {
+	height:100%;
+	background-image:url("../images/bouve.jpg");
+}
+
+#home-content-box {
+	height:100%;
+	width:100%;
+	display:table;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+#home-content-box-inner {
+	display:table-cell;
+	vertical-align: middle;
+}
+
+
+.content-title-white h3 {
+    color:#fff;
+    font-family: 'Parisienne', cursive;
+}
+
+
+
+.content-box {
+    padding: 60px 0px 60px 0px;
+}
+.content-title h3 {
+    font-size:40px;
+    font-weight:700;
+    text-align:center;
+    margin: 20px 0 20px 0;
+    color:#044727;
+ font-family: 'Parisienne', cursive;
+}
+
+.content-title-underline {
+    width: 40px;
+    height: 5px;
+    background-color:#ebba4d;
+    margin: 0 auto 50px auto;
+}
+
+/**************PARALLAX****************/
+.bg-parallax {
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+}
+
+
+/**************LOGIN****************/
+
+.login-container{
+    margin:20px;
+    background-color: #306795;
+}
+.login-content{
+    background-color: white;
+    padding:20px;
+}
+.login-title{
+    color:white;
+    font-family: 'Roboto',Helvetica;
+}
+.login-title h2{
+    font-size:30px;
+    color:white;
+    text-align: center;
+}
+.login-title i {
+    padding:0 10px;
+}
+
+.login-content h4 {
+    font-size:15px;
+}
+.btn-login{
+    color:#fff;
+    font-size: 15px;
+    border: 1px solid #306795;
+    background-color: #306795;
+    width:100%;
+    padding:7px;
+    border-radius:5px;
+    margin: 5px 0px;
+}
+
+.btn-login a{
+    color: #fff;
+}
+
+.formlinks{
+    text-align: center;
+}
+
+form .form-control {
+    text-align: left;
+    background:none;
+    border-radius:2px;
+    border: 0.2px solid gray;
+    font-size:13px;
+    font-weight:300;
+    padding: 5px;
+    margin-bottom: 10px;
+    color:#000;
+    box-shadow: none!important;
+    border:0.5px solid grey;
+}
+
+/***********N A V B A R ****************/
+.navbar-grey{
+    background-color: lightgrey;
+}
+
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+
+/**************H O M E P A G E ****************/
+
+.homepage{
+    width:80%;
+    margin:auto;
+}
+
+.home-icon{
+    height: 170px;
+    width: 100%;
+    background-color: #F1F1F1;
+    margin: 10px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.innerbox{
+    margin: auto;
+    padding:40px;
+}
+
+.home-icon i{
+    font-size: 40px;
+    color: #484848;
+    text-align: center;
+}
+
+.date-time{
+    display: inline-block;
+    float: right;
+}
+
+/**************V I D E O   L I B R A R Y****************/
+.video-icon{
+    height: 170px;
+    width: 100%;
+    background-color: #F1F1F1;
+    margin: 10px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.video-icon i{
+    font-size: 40px;
+    color: #484848;
+    text-align: center;
+}
+
+.video-card {
+    max-width: 300px;
+    margin: 10px auto;
+    padding:5px;
+    text-align: center;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+.video-card p{
+  max-width: 300px;
+  margin: auto;
+  text-align: left;
+}
+
+.videolist-icon i{
+    text-align: right;
+    font-size: 12px;
+    color: #8aa4d8;
+}
+
+
+.page-paignation{
+    margin: auto;
+    text-align: center;
+}
+
+/************** S I D E N A V B A R  #5C5C5C ****************/
+
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #F8F9FA;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 10px 8px 10px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  display: block;
+}
+
+.sidenav-icon{
+    color: #5C5C5C;
+    padding: 7px;
+}
+
+.navbar-border{
+    border-bottom: 1px solid #306795;  
+}
+
+.sidenav a:hover {
+  color: #006FE6;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.video-viewer{
+    width:100%;
+}
+
+.topmost-bar{
+    color:#000;
+    margin:auto;
+    text-align: right;
+}
+
+.sidenav-icon{
+    color: #5C5C5C;
+    padding: 7px;
+}
+
+.topbar-icon{
+    color: #D3D3D3; 
+    padding: 5px; 
+}
+
+.containerfluid{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/************** VIDEO-COMMENT ****************/
+
+.comment-section {
+    border: 2px solid #dedede;
+
+}
+
+.comment-scroll {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100vh;
+}
+
+.comment-entry {
+    overflow-y: scroll;
+    width: 100%;
+    height: 45vh;
+    padding: 10px;
+    border-top: 2px solid #a9a9a9;
+}
+
+.container-comment {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.container-comment p{
+    font-size: 12px;
+}
+
+.span-left {
+    font-size: 12px;
+}
+
+.span-right {
+    float: right;
+    color: #2D6594;
+    font-size: 12px;
+}
+
+.link-heading{
+    font-size: 1.5em;
+}
+
+.link-heading-small{
+    font-size: 1.0em;
+}
+
+textarea {
+  width: 100%;
+  height: 500%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  resize: none;
+    margin:5px 0;
+}
+
+
+.form-inline { 
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline button {
+    float: right;
+    background-color: #008CBA;
+    color: #fff;
+    font-size: 12px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+#viewreplies{
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  display: none;
+}
+
+#replycomment{
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightseagreen;
+  margin-top: 20px;
+  display: none;
+}
+
+/************** ADMIN-PAGE ****************/
+.admin-list{
+    font-size: 15px;
+    border: 1px solid #494949;
+    text-decoration: none;
+    padding:5px;
+    background-color: #F4F4F4
+;
+    border-radius: 5px;
+    margin:5px 0;
+} 
+
+ul {
+  list-style-type: none;
+}
+
+/************** SCHEDULE PAGE ****************/
+
+a.deletelink:link {
+    color: red;
+}
+
+/**
+.navbar-inverse{
+    background-color: #0A2C5E;
+    color: #fff;
+}
+
+.navbar-inverse a{
+    color: #fff;
+}
+**/
+
+/************** LIVE STREAMING ****************/
+.video-frame{
+    margin:10px;
+    padding: 10px;
+}
